@@ -1,0 +1,40 @@
+
+// TODO: RESPONSIVE DESIGN AND CHANGE COLOR FOR VARIABLES
+
+$primary__color: #ffff;
+$background__color: #000000;
+
+
+.presentation__container-align{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.presentation__container-bg{
+	background-color: $background__color;
+}
+
+.presentation__title{
+	font-size: 80px;
+	font-weight: lighter;
+}
+
+.presentation-color{
+	color: $primary__color;
+}
+
+.presentation__slogan{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.presentation__navigation{
+	position: absolute;
+	bottom: calc(0% + 30px);
+}
+
+.presentation__navigation-icon{
+	cursor: pointer;
+}

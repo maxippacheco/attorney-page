@@ -1,0 +1,13 @@
+// TODO: add variables separated file
+
+// utilitiesw
+@use './styles/base/settings';
+@use './styles/base/reset';
+
+// Components
+@use './styles/presentation';
+@use './styles/about';
+@use './styles/work';
+@use './styles/contact';
+@use './styles/footer';
+

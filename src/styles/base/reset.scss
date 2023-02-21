@@ -1,0 +1,12 @@
+// Basic config
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Century';
+}
+
+// Setup font
+@font-face {
+  font-family: 'Century';
+	src: url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nunito+Sans&display=swap')
+}
